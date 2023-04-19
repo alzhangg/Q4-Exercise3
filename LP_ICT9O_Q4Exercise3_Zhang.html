@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Arithmetic Operators</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		
+		body {
+		   background-image: url("https://i.imgur.com/5ubx6OR.png");
+		   font-size: 16px;
+		   color: #eae8eb;
+		   font-family: 'Courier Prime', monospace;
+		}
+
+		h1 {
+			font-size: 20px;
+			font-family: monospace;
+			color: #c4a7cf;
+		}
+
+		.page {
+		   border: 2px solid #0e0c0f;
+		   padding: 45px;
+		   border-radius:.50rem!important;
+		   margin-top: 45px;
+		   margin-bottom: 45px;
+		   width: 70%;
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="page container" style="background-color:#2C2B2C">
+		<h1><span>Exercise 3 - Javascript Arithmetic Operators</span></h1>
+		<br>
+		<p><mark>num_1 = 10, num_2 = 5;</mark></p>
+		<br>
+		<ol type="1.">
+
+		<li>SUM = <strong id="p1"></strong></li>
+		<li>DIFF = <strong id="p2"></strong></li>
+		<li>PROD = <strong id="p3"></strong></li>
+		<li>QUOTIENT = <strong id="p4"></strong></li>
+		<li>MOD = <strong id="p5"></strong></li>
+
+		</ol>
+
+		<script>
+
+			let num_1=10, num_2=5;
+
+			//variable declaration; assignment of values
+			document.getElementById("p1").innerHTML = num_1 + num_2;
+			document.getElementById("p2").innerHTML = num_1 - num_2;
+			document.getElementById("p3").innerHTML = num_1 * num_2;
+			document.getElementById("p4").innerHTML = num_1 / num_2;
+			document.getElementById("p5").innerHTML = num_1 % num_2;
+
+		</script>
+	</div>
+</body>
+</html>
